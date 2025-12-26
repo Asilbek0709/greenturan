@@ -4,12 +4,12 @@ import '../globals.css'
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Link from 'next/link';
-import { ReactComponent as PhoneIcon } from '@/assets/icons/phone.svg'
-import { ReactComponent as EmailIcon } from '@/assets/icons/email.svg'
-import { ReactComponent as LocationIcon } from '@/assets/icons/location.svg'
-import { ReactComponent as MapIcon } from '@/assets/icons/map.svg'
-import { ReactComponent as HoursIcon } from '@/assets/icons/hours.svg'
-import { ReactComponent as ArrowIcon } from '@/assets/icons/arrow.svg'
+import PhoneIcon from '@/assets/icons/phone.svg'
+import EmailIcon from '@/assets/icons/email.svg'
+import LocationIcon from '@/assets/icons/location.svg'
+import MapIcon from '@/assets/icons/map.svg'
+import HoursIcon from '@/assets/icons/hours.svg'
+import ArrowIcon from '@/assets/icons/arrow.svg'
 
 export default function Contact() {
   return (
