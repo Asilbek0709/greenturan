@@ -15,16 +15,9 @@ body {
     overflow-x: hidden;
 }
 
-header {
-    /* <CHANGE> changed from 100vw to 100% to prevent horizontal scrollbar */
-    width: 100%;
-    display: flex;
-    background-color: #fff;
-    padding: 1rem;
-    justify-content: space-between;
-    align-items: center;
-    left: 0;
-    top: 0;
+.header {
+  width: 100%;
+  display: flex;
 }
 
 .navigation {
@@ -44,19 +37,19 @@ header {
 
 .hover-link {
     padding: 16px 38px 16px 38px;
-    background-color: #ff4e00;
+    background-color: #213981;
     color: #fff;
     width: 142px;
     text-align: center;
     transition: 0.3s ease-in-out;
-    border: 0.5px solid #ff4e00;
+    border: 0.5px solid #213981;
     text-decoration: none;
 }
 
 .hover-link:hover {
     background-color: #fff;
-    border: 0.5px solid #ff4e00;
-    color: #ff4e00;
+    border: 0.5px solid #213981;
+    color: #213981;
 }
 
 footer {
@@ -104,17 +97,17 @@ footer .page-link {
 }
 
 .page-link:hover, .hover-link:hover {
-    color: #ff4e00;
+    color: #213981;
 }
 
 .heroSwiper {
   /* <CHANGE> changed from 85vw to 100% with max-width for better responsiveness */
-  max-width: 85vw;
+  max-width: 80vw;
   height: 80vh;
 }
 
 .slide {
-  max-width: 85vw;
+  max-width: 80vw;
   height: 80vh;
   background-size: cover;
   background-position: center;
@@ -207,11 +200,11 @@ footer .page-link {
 .home-hover-link, .home-hover-link-special {
     padding: 1rem;
     background-color: #fff;
-    color: #ff4e00;
+    color: #213981;
     width: 8rem;
     text-align: center;
     transition: 0.3s ease-in-out;
-    border: 0.5px solid #ff4e00;
+    border: 0.5px solid #213981;
     text-decoration: none;
     font-size: 16px;
     margin-top: 4rem;
@@ -222,7 +215,7 @@ footer .page-link {
 }
 
 .home-hover-link:hover, .home-hover-link-special:hover {
-    background-color: #ff4e00;
+    background-color: #213981;
     color: #fff;
 }
 
@@ -280,9 +273,9 @@ footer .page-link {
 }
 
 .service:hover {
-    color: #ff4e00;
-    stroke: #ff4e00;
-    fill: #ff4e00;
+    color: #213981;
+    stroke: #213981;
+    fill: #213981;
 }
 
 .line2 {
@@ -311,7 +304,7 @@ footer .page-link {
 }
 
 .arrow:hover {
-  color: #ff4e00;
+  color: #213981;
 }
 
 /* Projects */
@@ -322,13 +315,12 @@ footer .page-link {
   padding: 7rem;
   justify-content: center;
   align-items: center;
-  /* <CHANGE> added width: 100% to prevent overflow */
   width: 100%;
 }
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(2, 2fr);
+  grid-template-columns: repeat(2, 2fr) !important;
   margin-top: 4rem;
   margin-bottom: 4rem;
   gap: 1.75rem;
@@ -387,7 +379,7 @@ footer .page-link {
 .project-overlay {
   padding: 0.3rem;
   color: #fff;
-  background-color: #ff4e00;
+  background-color: #213981;
   margin: 1rem;
   font-size: 14px;
 }
@@ -406,7 +398,7 @@ footer .page-link {
 
 .more-info {
   text-decoration: none;
-  color: #ff4e00;
+  color: #213981;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -458,7 +450,7 @@ footer .page-link {
 
 .cv-link:hover {
   background-color: #fff;
-  color: #ff4e00;
+  color: #213981;
 }
 
 /* NEWS */
@@ -469,7 +461,7 @@ footer .page-link {
   justify-content: center;
   align-items: center;
   padding: 8rem;
-  /* <CHANGE> added width: 100% to prevent overflow */
+
   width: 100%;
 }
 
@@ -519,7 +511,7 @@ footer .page-link {
 }
 
 .news-card:hover .news-info {
-  color: #ff4e00;
+  color: #213981;
 }
 
 /* Marquee */
@@ -574,7 +566,7 @@ footer .page-link {
     color: #000;
   opacity: 1;
 }
-/* Псевдоэлемент ::before */
+
 .marquee::before {
   content: "";
   position: absolute;
@@ -585,7 +577,6 @@ footer .page-link {
   z-index: -1;
 }
 
-/* Элемент стрелки */
 .marquee-arrow-cont {
   padding: 2rem;
   background-color: #000;
@@ -593,13 +584,13 @@ footer .page-link {
   transition: 0.3s ease-in-out;
 }
 
-/* Ховер на стрелку и псевдоэлемент */
+
 .marquee:hover::before {
   transform: scaleX(1);
 }
 
 .marquee:hover .marquee-arrow-cont {
-  background-color: #ff4e00;
+  background-color: #213981;
 }
 
 @keyframes marquee {
@@ -828,7 +819,7 @@ body {
     }
     
     .projects-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: fr;
         gap: 1rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
@@ -1081,10 +1072,6 @@ body {
     }
 }
 
-/* Десктопы (1025px и выше) */
-@media (min-width: 1025px) {
-    /* Базовые стили уже заданы для десктопов */
-}
 
 /* Для очень маленьких устройств (до 480px) */
 @media (max-width: 480px) {
@@ -1253,13 +1240,13 @@ html {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
-  color: #ff4e00;
+  color: #213981;
 }
 
 .dropdown:hover .arrow,
 .dropdown:focus-within .arrow {
   transform: rotate(180deg);
-  color: #ff4e00;
+  color: #213981;
 }
 
 /* About Page */
@@ -1361,15 +1348,15 @@ html {
   width: 182px;
   padding: 1.25rem;
   background-color: #fff;
-  border: 0.5px solid #ff4e00;
-  color: #ff4e00;
+  border: 0.5px solid #213981;
+  color: #213981;
   font-size: 18px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .filterBtnActive {
-  background-color: #ff4e00;
+  background-color: #213981;
   color: #fff;
 }
 
@@ -1609,9 +1596,11 @@ html {
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 1.5rem 2rem;
+  justify-content: space-around;
+  padding: 1rem 0rem;
   position: relative;
+  gap: 15rem;
+  background-color: #fff;
 }
 
 .left-container img {

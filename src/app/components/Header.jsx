@@ -10,10 +10,10 @@ export default function Header() {
   return (
     <header className="header">
       <div className="left-container">
-        <img src="/logo2-footer.svg" alt="Logo" />
+        <img src="/footer-logo.png" alt="Logo" />
       </div>
 
-      {/* Desktop navigation */}
+      
       <div className="right-container">
         <div className="navigation">
           <div className="dropdown">
@@ -50,7 +50,7 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Burger button */}
+      
       <button
         className={`burger ${open ? "open" : ""}`}
         onClick={() => setOpen(!open)}
@@ -60,7 +60,7 @@ export default function Header() {
         <span />
       </button>
 
-      {/* Mobile menu */}
+      
       <nav className={`mobileMenu ${open ? "show" : ""}`}>
         <Link className="mobile-link" href="/about" onClick={() => setOpen(false)}>About</Link>
         <Link className="mobile-link" href="/services" onClick={() => setOpen(false)}>Services</Link>

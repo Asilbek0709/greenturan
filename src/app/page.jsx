@@ -32,28 +32,28 @@ export default function Home() {
             </Link>
             <div className="services-variation">
                   <Link href={"/services"} className="service"> 
-                  CONSTRUCTION ACTIVITIES
+                  Turnkey construction of solar power plants
                     <svg className="arrow"width="18"height="18"viewBox="4 4 16 16" aria-hidden>
                       <path d="M4 12h16m0 0l-6-6m6 6l-6 6"stroke="currentColor"strokeWidth="1.5"fill="none"strokeLinecap="round"strokeLinejoin="round"/>
                     </svg>
                   </Link>
                   <div className="line2"></div>
                   <Link href={"/services"} className="service"> 
-                  REAL ESTATE DEVELOPMENT
+                  Design, Feasibility Study and System Management
                     <svg className="arrow"width="18"height="18"viewBox="4 4 16 16" aria-hidden>
                       <path d="M4 12h16m0 0l-6-6m6 6l-6 6"stroke="currentColor"strokeWidth="1.5"fill="none"strokeLinecap="round"strokeLinejoin="round"/>
                     </svg>
                   </Link>
                   <div className="line2"></div>
                   <Link href={"/services"} className="service"> 
-                  CHIRCHIQ STRUCTURAL STEEL FACTORY
+                  Energy system modeling and analysis
                     <svg className="arrow"width="18"height="18"viewBox="4 4 16 16" aria-hidden>
                       <path d="M4 12h16m0 0l-6-6m6 6l-6 6"stroke="currentColor"strokeWidth="1.5"fill="none"strokeLinecap="round"strokeLinejoin="round"/>
                     </svg>
                   </Link>
                   <div className="line2"></div>
                   <Link href={"/services"} className="service"> 
-                  METQ – ENERGY DEVELOPMENT
+                  Technical inspection and audit
                     <svg className="arrow"width="18"height="18"viewBox="4 4 16 16" aria-hidden>
                       <path d="M4 12h16m0 0l-6-6m6 6l-6 6"stroke="currentColor"strokeWidth="1.5"fill="none"strokeLinecap="round"strokeLinejoin="round"/>
                     </svg>

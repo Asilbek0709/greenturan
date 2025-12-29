@@ -78,7 +78,7 @@ export default function ProjectsPage() {
               strokeLinejoin="round"
             />
           </svg>
-          <Link className='destination-link-located' href={'/contact'} >Contacts</Link>
+          <Link className='destination-link-located' href={'/contact'} >Projects</Link>
         </div>
         <div className="projects-container">
             <div className="filterContainer">
