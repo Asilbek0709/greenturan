@@ -99,7 +99,7 @@ export default function ProjectsPage() {
                 <div key={project.id} className="projectCard">
                   <div className="badgeContainer">
                     <span
-                      className={`${styles.badge} ${project.status === "successful" ? styles.badgeSuccess : styles.badgePlanned}`}
+                      className={`${"badge"} ${project.status === "successful" ? "badgeSuccess" : "badgePlanned"}`}
                     >
                       {project.status.charAt(0).toUpperCase() + project.status.slice(1)}
                     </span>
