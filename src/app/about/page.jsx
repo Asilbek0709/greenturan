@@ -14,7 +14,7 @@ export default function AboutPage() {
         <section className="aboutpage">
             <Header></Header>
               <div className="destination">
-                <Link className='destination-link' href={'/'} >Homepage</Link>
+                <Link className='destination-link' href={'/'} >{t("homepage")}</Link>
                             <svg 
                   width="16" 
                   height="16" 
@@ -31,7 +31,7 @@ export default function AboutPage() {
                     strokeLinejoin="round"
                   />
                 </svg>
-                <Link className='destination-link-located' href={'/contact'} >About Company</Link>
+                <Link className='destination-link-located' href={'/contact'} >{t("dropdown-link-about")}</Link>
               </div>
               <main className="aboutmain">
                 <div className="aboutinformation">
