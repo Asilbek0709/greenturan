@@ -11,13 +11,32 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* <CHANGE> removed width: 100vw to prevent x-scrollbar */
     overflow-x: hidden;
 }
 
+.homepage {
+  width: 100%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    /* left: 0; */
+    /* top: 0; */
+    position: fixed;
+    z-index: 999;
+}
 .header {
   width: 100%;
   display: flex;
+}
+
+.left-container{
+  margin-left: 2rem;
 }
 
 .navigation {
@@ -58,7 +77,6 @@ footer {
     padding: 5rem;
     background-color: #000;
     color: #fff;
-    /* <CHANGE> added width: 100% to prevent overflow */
     width: 100%;
 }
 
@@ -87,7 +105,6 @@ footer .page-link {
 }
 
 .line {
-    /* <CHANGE> changed from 85rem to max-width with 100% to prevent overflow on smaller screens */
     width: 100%;
     max-width: 85rem;
     height: 2px;
@@ -99,10 +116,15 @@ footer .page-link {
 .page-link:hover, .hover-link:hover {
     color: #213981;
 }
+.page-link:hover path{
+  stroke: #ff4e00;
+}
 
 .heroSwiper {
   /* <CHANGE> changed from 85vw to 100% with max-width for better responsiveness */
   max-width: 70vw;
+  max-width: 80vw;
+
   height: 80vh;
 }
 
@@ -183,7 +205,7 @@ footer .page-link {
     display: flex;
     flex-direction: column;
     padding: 6rem;
-    margin-left: 4rem;
+    /* margin-left: 4rem; */
 }
 
 .about h1 {
@@ -314,10 +336,13 @@ footer .page-link {
 }
 
 .projects-container {
+  /* width: 100%; */
   display: grid;
   grid-template-columns: repeat(2, 2fr);
   margin-top: 4rem;
   margin-bottom: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   gap: 1.75rem;
 }
 
@@ -409,21 +434,25 @@ footer .page-link {
 }
 
 .feedback-info {
+  width: 50%;
   display: flex;
   flex-direction: column;
-  padding: 10rem;
+  padding-left: 8rem;
+  padding-top: 10rem;
   background-color: #6f8697;
   color: #fff;
   gap: 2rem;
 }
 
 .feedback-info h1 {
-  font-size: 38px;
+  font-size: 36px;
+  font-weight: 800;
 }
 
 .feedback-info p {
   width: 40rem;
   font-size: 20px;
+  font-size: 17px;
 }
 
 .feedback-photo img {
@@ -465,22 +494,17 @@ footer .page-link {
   display: flex;
   margin-top: 4rem;
   gap: 1.75rem;
+  /* margin-left: 4rem; */
 }
 
 .news-card {
   display: flex;
   flex-direction: column;
-  width: 40rem;
+  width: 640px;
   overflow: hidden;
 }
 
 .news-card-img {
-  height: 20rem;
-  overflow: hidden;
-  transition: 0.3s ease;
-}
-
-.news-card-img img {
   width: 40rem;
   height: 20rem;
   object-fit: cover;
@@ -490,7 +514,7 @@ footer .page-link {
 .news-info {
   display: flex;
   flex-direction: column;
-  font-size: 22px;
+  font-size: 21px;
   margin-top: 0.75rem;
   font-weight: bold;
   transition: 0.3s ease;
@@ -647,7 +671,7 @@ footer .page-link {
 .phone-number p{
   margin-top: 1.25rem;
 }
-/* Contactpage */
+
 .location{
   display: flex;
   gap: 1rem;
@@ -655,6 +679,14 @@ footer .page-link {
   align-items: center;
   margin-top: 2.5rem;
 }
+
+.contactpage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#000;
+}
+
 .location-info{
   display: flex;
   flex-direction: column;
@@ -707,7 +739,6 @@ body {
     width: 100%;
 }
 
-/* Мобильные устройства (до 768px) */
 @media (max-width: 768px) {
     header {
         padding: 0.5rem 1rem;
@@ -846,7 +877,8 @@ body {
     }
     
     .feedback-info {
-        padding: 2rem;
+        width: 100%;
+        padding: 2rem 6rem;
         order: 2;
     }
     
@@ -896,7 +928,7 @@ body {
     }
     
     .main-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
     
@@ -957,10 +989,10 @@ body {
     }
 }
 
-/* Планшеты (769px - 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
     header {
         padding: 0.75rem 1.5rem;
+      
     }
     
     .navigation {
@@ -1014,12 +1046,21 @@ body {
     }
     
     .feedback-info {
-        padding: 4rem;
+      
+        padding: 4rem 2rem 3rem 2rem;
     }
     
+    .feedback-info h1 {
+      font-size: 30px;  
+    }
+
+    .feedback-info p {
+      font-size: 16px;
+    }
+
     .feedback-photo img {
         height: 60vh;
-        width: 40vw;
+        width: 100%;
     }
     
     .news-container {
@@ -1061,8 +1102,6 @@ body {
     }
 }
 
-
-/* Для очень маленьких устройств (до 480px) */
 @media (max-width: 480px) {
     .overlay h1 {
         font-size: 1.2rem;
@@ -1126,10 +1165,7 @@ body {
     .projects-card {
         width: 45rem;
     }
-    
-    .news-card {
-        width: 45rem;
-    }
+
     
     .news-card-img img {
         width: 45rem;
@@ -1152,7 +1188,8 @@ img, video {
 
 /* Адаптивная типографика */
 html {
-    font-size: 16px;
+  scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 @media (max-width: 768px) {
@@ -1270,11 +1307,14 @@ html {
 }
 
 .about-card {
+  color: white;
   display: flex;
+  scroll-margin-top: 168px;
   justify-content: space-between;
   align-items: flex-start;
   gap: 2rem;
   width: 100%;
+  text-decoration: none;
 }
 
 .aboutinformation {
@@ -1431,18 +1471,21 @@ html {
 /* Tablet Responsive */
 @media (max-width: 1024px) {
   .aboutmain {
-    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem;
     gap: 1.5rem;
   }
 
   .about-card {
-    flex-direction: column;
+    font-weight: 100;
+    /* flex-direction: column; */
     gap: 2rem;
   }
 
   .aboutnavbar {
     width: 100%;
-    height: auto;
+    /* height: auto; */
     padding: 1.5rem;
   }
 
@@ -1474,7 +1517,7 @@ html {
   }
 
   .about-card {
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 1.5rem;
   }
 
@@ -1518,8 +1561,9 @@ html {
   }
 
   .projectspage-container {
-    grid-template-columns: 1fr;
-    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .projects-buttons {
@@ -1584,6 +1628,190 @@ html {
 
   .projectspage-container {
     max-width: 1400px;
+  }
+}
+
+@media (max-width: 1348px) {
+    .feedback-info {
+      padding-left: 6rem;
+    }
+}
+
+@media (max-width: 1308px) {
+  .about {
+    display: flex;
+    
+  }
+  .projects-card {
+    width: 612px;
+  }
+
+  .project-info {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .news-card {
+      width: 35rem;
+      display: flex;
+      align-items: center;
+      /* text-align: center; */
+    }
+
+    .news-card-img {
+      width: 100%;
+      height: 20rem;
+    }
+
+}
+
+@media (max-width: 612px) {
+    .projects-card{
+      width: 548px;
+
+    }
+}
+
+@media (max-width: 1376px) {
+  .location {
+    width: 80rem;
+  }
+}
+
+@media (max-width: 1268px) {
+    .projects-card {
+      width: 596px;
+    }    
+
+    .location {
+      width: 75rem;
+    }
+}
+
+@media (max-width: 1228px) {
+    .projects-card {
+      width: 580px;
+    }
+    .location {
+      width: 70rem;
+    }
+
+}
+
+@media (max-width: 1188px) {
+    .projects-card {
+      width: 564px;
+    }
+    .feedback-info {
+      padding-left: 4rem;
+    }
+    .navigation{
+      margin-right: 4rem;
+    }
+    .location{
+      width: 65rem;
+    }
+
+}
+
+@media (max-width: 1148px) {
+    .projects-card {
+      width: 548px;
+    }    
+    .news-card{
+      width: 30rem;
+    }
+    .location{
+      width: 60rem;
+    }
+}
+
+@media (max-width: 1108px) {
+    .projects-card {
+      width: 532px;
+    }
+    .location {
+      width: 55rem;
+    }
+  }
+
+@media (max-width: 1068px) {
+    .projects-card {
+      width: 516px;
+    }
+    .project-info h1 {
+        font-size: 20px;
+    }
+    .feedback-info{
+      padding-left: 3rem;
+    }
+    .location {
+      width: 50rem;
+    }
+  }
+
+@media (max-width: 687px) {
+  .location {
+    width: 43rem;
+  }
+}
+
+@media (max-width: 589px) {
+    .location{
+      width: 38rem;
+    }
+}
+
+@media (max-width: 530px) {
+  .projects-card {
+      width: 498px;
+    }
+    .location{
+      width: 35rem;
+    }
+  }
+
+@media (max-width: 496px) {
+  .projects-card {
+    width: 464px;
+  }
+  .location {
+    width: 33rem;
+  }
+}
+
+@media (max-width: 464px) {
+  .projects-card {
+    width: 430px;
+  }
+  .location {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 432px) {
+  .projects-card {
+    width: 396px;
+  }
+  .location {
+    width: 28rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .projects-card {
+    width: 362px;
+  }
+  .location {
+    width: 25rem;
+  }
+}
+@media (max-width: 368px) {
+  .projects-card {
+    width: 328px;
+  }
+  .location {
+    width: 23rem;
   }
 }
 /* ===== HEADER BASE ===== */
@@ -1671,6 +1899,7 @@ html {
   .burger {
     display: flex;
   }
+<<<<<<< HEAD
 }
 
 .modal-overlay {
@@ -1703,3 +1932,5 @@ html {
   border: none;
   background: transparent;
 }
+
+

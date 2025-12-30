@@ -15,8 +15,8 @@ export default function Contact() {
   return (
     <section className="contactpage">
       <Header></Header>
-      <div className="destination">
-          <Link className='destination-link' href={'/'} >{t("homepage")}</Link>
+      <div className="destination" style={{width:"100%",}}>
+          <Link className='destination-link' href={'/'} >Homepage</Link>
                       <svg 
             width="16" 
             height="16" 
@@ -192,5 +192,5 @@ export default function Contact() {
         </section>
       <Footer></Footer>
     </section>
-  );
+  )
 }
