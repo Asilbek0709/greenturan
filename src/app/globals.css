@@ -395,12 +395,17 @@ footer .page-link {
 }
 
 .more-info {
+  background-color: #213981;
   text-decoration: none;
-  color: #213981;
+  color: #fff;
   display: flex;
   align-items: center;
   gap: 0.5rem;
   margin-top: auto;
+  width: fit-content;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 8px;
 }
 
 /* Feedback */
@@ -786,7 +791,6 @@ body {
     }
     
     .home-about-navigation {
-        flex-direction: column;
         margin-top: 2rem;
     }
     
@@ -803,7 +807,7 @@ body {
     }
     
     .home-hover-link, .home-hover-link-special {
-        width: 100%;
+        width: 80%;
         margin-top: 2rem;
     }
     
@@ -835,6 +839,7 @@ body {
         height: auto;
         flex-direction: column;
         gap: 0;
+        background-color: #fff;
     }
     
     .project-photo-1,
@@ -919,7 +924,7 @@ body {
     }
     
     footer {
-        padding: 2rem 1rem;
+        padding: 0;
     }
     
     .main-container{
@@ -1097,11 +1102,19 @@ body {
 
 /* Для очень маленьких устройств (до 480px) */
 @media (max-width: 480px) {
+  header{
+    width: 100%;
+  }
     .overlay h1 {
         font-size: 1.2rem;
         padding: 0 1rem;
     }
-    
+    .heroSwiper{
+      width: 100%;
+    }
+    .slide{
+      width: 100%;
+    }
     .heroSwiper .swiper-pagination-bullet {
         width: 2rem;
         height: 0.2rem;
@@ -1142,7 +1155,8 @@ body {
     }
     
     footer {
-        padding: 1.5rem 1rem;
+      padding: 0;
+      width: 100%;
     }
 }
 
@@ -1158,6 +1172,7 @@ body {
     
     .projects-card {
         width: 45rem;
+        background-color: #fff;
     }
     
     .news-card {

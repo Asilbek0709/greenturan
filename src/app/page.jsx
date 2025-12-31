@@ -84,7 +84,7 @@ export default function Home() {
                     </div>
                     <Link href={"/projects"} className="more-info"> 
                       {t("learn-more")}
-                      <svg className="info-arrow"width="18"height="18"viewBox="4 4 16 16" aria-hidden>
+                      <svg className="info-arrow"width="12"height="12"viewBox="4 4 16 16" aria-hidden>
                         <path d="M4 12h16m0 0l-6-6m6 6l-6 6"stroke="currentColor"strokeWidth="1.5"fill="none"strokeLinecap="round"strokeLinejoin="round"/>
                       </svg>
                     </Link>
@@ -106,7 +106,7 @@ export default function Home() {
                     </div>
                     <Link href={"/projects"} className="more-info"> 
                       {t("learn-more")}
-                      <svg className="info-arrow"width="18"height="18"viewBox="4 4 16 16" aria-hidden>
+                      <svg className="info-arrow"width="12"height="12"viewBox="4 4 16 16" aria-hidden>
                         <path d="M4 12h16m0 0l-6-6m6 6l-6 6"stroke="currentColor"strokeWidth="1.5"fill="none"strokeLinecap="round"strokeLinejoin="round"/>
                       </svg>
                     </Link>
@@ -128,7 +128,7 @@ export default function Home() {
                     </div>
                     <Link href={"/projects"} className="more-info"> 
                       {t("learn-more")}
-                      <svg className="info-arrow"width="18"height="18"viewBox="4 4 16 16" aria-hidden>
+                      <svg className="info-arrow"width="12"height="12"viewBox="4 4 16 16" aria-hidden>
                         <path d="M4 12h16m0 0l-6-6m6 6l-6 6"stroke="currentColor"strokeWidth="1.5"fill="none"strokeLinecap="round"strokeLinejoin="round"/>
                       </svg>
                     </Link>
@@ -150,14 +150,14 @@ export default function Home() {
                     </div>
                     <Link href={"/projects"} className="more-info"> 
                       {t("learn-more")}
-                      <svg className="info-arrow"width="18"height="18"viewBox="4 4 16 16" aria-hidden>
+                      <svg className="info-arrow"width="12"height="12"viewBox="4 4 16 16" aria-hidden>
                         <path d="M4 12h16m0 0l-6-6m6 6l-6 6"stroke="currentColor"strokeWidth="1.5"fill="none"strokeLinecap="round"strokeLinejoin="round"/>
                       </svg>
                     </Link>
                   </div>
               </div>
             </div>
-            <Link className='home-hover-link' href={'/projects'}>{t("all-projects")}</Link>
+            <Link  className='home-hover-link' href={'/projects'}>{t("all-projects")}</Link>
         </section>
         <section className="feedback">
             <div className="feedback-info">
