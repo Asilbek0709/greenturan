@@ -19,9 +19,9 @@ export default function Home() {
         <section className="about">
           <h1>{t("dropdown-link-about")}</h1>
           <div className="home-about-navigation">
-              <Link className='home-hover-link' href={'/contact'}>{t("home-hover-link-about")}</Link>
-              <Link className='home-hover-link' href={'/contact'}>{t("home-hover-link-partners")}</Link>
-              <Link className='home-hover-link-special' href={'/contact'}>{t("home-hover-link-licenses")}</Link>
+              <Link className='home-hover-link' href={'/about'}>{t("home-hover-link-about")}</Link>
+              <Link className='home-hover-link' href={'/about'}>{t("home-hover-link-partners")}</Link>
+              <Link className='home-hover-link-special' href={'/about'}>{t("home-hover-link-licenses")}</Link>
             </div>
         </section>
           <div className="home-about-variations">
