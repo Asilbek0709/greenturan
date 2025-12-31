@@ -65,6 +65,8 @@ footer {
 .main-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
 }
 
 .socials {
@@ -201,7 +203,7 @@ footer .page-link {
     padding: 1rem;
     background-color: #fff;
     color: #213981;
-    width: 8rem;
+    width: fit-content;
     text-align: center;
     transition: 0.3s ease-in-out;
     border: 0.5px solid #213981;
@@ -224,6 +226,7 @@ footer .page-link {
     align-items: center;
     margin-top: 4rem;
     gap: 4rem;
+    justify-content: center;
 }
 
 .service-card {
@@ -327,8 +330,8 @@ footer .page-link {
   overflow: hidden;
   position: relative;
   width: 40rem;
-  height: 14rem;
-  gap: 15rem;
+  height: 15rem;
+  gap: 13rem;
   justify-content: space-between;
 }
 
@@ -355,11 +358,11 @@ footer .page-link {
 }
 
 .project-photo-3 {
-  background-image: url("/energy_ministry.jpg");
+  background-image: url("/solar7.jpg");
 }
 
 .project-photo-4 {
-  background-image: url("/lot33a.jpg");
+  background-image: url("/solar8.jpg");
 }
 
 .project-photo-1:hover, .project-photo-2:hover, .project-photo-3:hover, .project-photo-4:hover {
@@ -587,6 +590,12 @@ footer .page-link {
 
 .marquee:hover .marquee-arrow-cont {
   background-color: #213981;
+}
+.badge{
+  display: flex;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: fit-content;
 }
 
 @keyframes marquee {
@@ -816,7 +825,7 @@ body {
     }
     
     .projects-card {
-        width: 60%;
+        width: 90%;
         height: auto;
         flex-direction: column;
         gap: 0;
@@ -907,9 +916,10 @@ body {
         padding: 2rem 1rem;
     }
     
-    .main-container {
-        grid-template-columns: 1fr;
+    .main-container{
+        grid-template-columns: repeat(2, 2fr);
         gap: 2rem;
+        margin-left: 4rem;
     }
     
     .marquee {
@@ -1052,6 +1062,9 @@ body {
     .main-container {
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2rem;
     }
     
     .services-card {
@@ -1377,7 +1390,7 @@ html {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 2rem;
-  gap: 1rem;
+  gap: 1.5rem;
   width: 100%;
   max-width: 1200px;
   justify-content: center;
@@ -1388,6 +1401,8 @@ html {
   padding: 1rem;
   background-color: #fff;
   border: none;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
 /* ===== TABLET (≤ 1024px) ===== */
@@ -1482,6 +1497,7 @@ html {
 @media (max-width: 768px) {
   .header{
     gap: 0;
+    width: 100%;
   }
   .aboutmain {
     flex-direction: column;

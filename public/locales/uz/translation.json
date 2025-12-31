@@ -15,6 +15,14 @@
     "service-variation4": "Texnik tekshirish va audit",
     "projects-section": "Loyhalarimiz",
     "project-overlay-completed": "Yakunlangan",
+    "project-title1": "Prezident maktabi",
+    "project-title2": "XORAZM SARIMAY 126 MW loyihasi",
+    "project-title3": "Buxoro viloyati, Korli-Tog stansiyasida 30 kW quvvatga ega quyosh fotoelektr stansiyasini qurish",
+    "project-title4": "Andijon viloyatida 50 kW quvvatga ega quyosh fotoelektr stansiyasini qurish",
+    "project-desc1": "· Ishchi loyiha hujjatlarini tayyorlash · Uskunalarni kalit topshirish asosida yetkazib berish va o‘rnatish · Ishga tushirish-sozlash va sinov ishlari",
+    "project-desc2": "Loyihalash, ta’minot va qurilish (EPC)",
+    "all-projects": "Barcha loyhalar",
+    "learn-more": "Batafsil",
     "feedback-info-h1": "Biz bilan ishlang",
     "feedback-info-p": "Bizning innovatsion va hamkorlikdagi jamoamizga qo'shiling! Biz doimo o'zgarishlar qilishga tayyor iste'dodli shaxslarni qidiramiz. Rezyumeni yuklang va biz bilan sayohatingizni boshlang.",
     "cv-link": "REZYUMENI YUKLASH",
@@ -63,6 +71,20 @@
     "loc": "Mahalliy",
     "foundation": "Tashkil etilgan yil",
     "certificate": "Litsenziyar va sertifikatlar",
-    "certificares-info": "Biz mahalliy va xalqaro miqyosda tan olingan sertifikatlar va litsenziyalarga ega bo‘lishimiz bilan faxrlanamiz, ular sifat, xavfsizlik va barqarorlikka bo‘lgan majburiyatimizni tasdiqlaydi."
-    
+    "certificares-info": "Biz mahalliy va xalqaro miqyosda tan olingan sertifikatlar va litsenziyalarga ega bo‘lishimiz bilan faxrlanamiz, ular sifat, xavfsizlik va barqarorlikka bo‘lgan majburiyatimizni tasdiqlaydi.",
+    "project-planned": "Rejalashtirilgan",
+    "power": "Umumiy o‘rnatilgan quvvat",
+    "scope": "Ishlar hajmi",
+    "client": "Buyurtmachi",
+    "panels": "Quyosh panellari",
+    "inverter": "Invertor",
+    "project-page-title1": "300 kW quvvatga ega quyosh fotoelektr elektr stansiyasi",
+    "project-page-title1-desc": "«New Eco Energy» MCHJ va «PRIME TOWN» MCHJ o‘rtasida kelishilgan loyiha doirasida Toshkent viloyati, Nurafshon shahrida joylashgan Nurafshon shahar sudi binosida 300 kW quvvatga ega quyosh fotoelektr elektr stansiyasini qurish rejalashtirilgan.",
+    "project-page-title2": "300 kW quvvatga ega quyosh fotoelektr elektr stansiyasi",
+    "project-page-title2-desc": "· Ishchi loyiha hujjatlarini tayyorlash · Uskunalarni kalit topshirish asosida yetkazib berish va o‘rnatish · Ishga tushirish-sozlash va sinov ishlari",
+    "project-page-title3": "200 kW quvvatga ega quyosh fotoelektr elektr stansiyasi",
+    "project-page-title4": "50 kW quvvatga ega quyosh fotoelektr elektr stansiyasi",
+    "project-page-title5": "100 kW quvvatga ega quyosh fotoelektr elektr stansiyasi",
+    "project-page-title6": "120 kW quvvatga ega quyosh fotoelektr elektr stansiyasi"
+
 }

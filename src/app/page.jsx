@@ -77,13 +77,13 @@ export default function Home() {
                   </div>
                   <div className="project-info">
                     <div className="project-tittle">
-                      <h1>Presidential School</h1>
+                      <h1>{t("project-title1")}</h1>
                     </div>
                     <div className="project-desc">
-                      <p>·Preparation of working project documentation <br /> ·Turnkey supply and installation of equipment <br /> ·Commissioning and testing </p>
+                      <p>{t("project-desc1")}</p>
                     </div>
                     <Link href={"/projects"} className="more-info"> 
-                      Learn More
+                      {t("learn-more")}
                       <svg className="info-arrow"width="18"height="18"viewBox="4 4 16 16" aria-hidden>
                         <path d="M4 12h16m0 0l-6-6m6 6l-6 6"stroke="currentColor"strokeWidth="1.5"fill="none"strokeLinecap="round"strokeLinejoin="round"/>
                       </svg>
@@ -99,13 +99,13 @@ export default function Home() {
                   </div>
                   <div className="project-info">
                     <div className="project-tittle">
-                        <h1>XORAZM SARIMAY 126MW PROJECT</h1>
+                        <h1>{t("project-title2")}</h1>
                     </div>
                     <div className="project-desc">
-                      <p> Location: Tashkent, Uzbekistan   SCOPE OF WORK Engineering Procurement Construction</p>
+                      <p>{t("project-desc2")}</p>
                     </div>
                     <Link href={"/projects"} className="more-info"> 
-                      Learn More
+                      {t("learn-more")}
                       <svg className="info-arrow"width="18"height="18"viewBox="4 4 16 16" aria-hidden>
                         <path d="M4 12h16m0 0l-6-6m6 6l-6 6"stroke="currentColor"strokeWidth="1.5"fill="none"strokeLinecap="round"strokeLinejoin="round"/>
                       </svg>
@@ -121,13 +121,13 @@ export default function Home() {
                   </div>
                   <div className="project-info">
                     <div className="project-tittle">
-                      <h1>BUILDING OF THE MINISTRY OF ENERGY</h1>
+                      <h1>{t("project-title3")}</h1>
                     </div>
                     <div className="project-desc">
-                      <p>Location: Tashkent, Uzbekistan   SCOPE OF WORK Engineering Procurement Construction</p>
+                      <p>{t("project-desc1")}</p>
                     </div>
                     <Link href={"/projects"} className="more-info"> 
-                      Learn More
+                      {t("learn-more")}
                       <svg className="info-arrow"width="18"height="18"viewBox="4 4 16 16" aria-hidden>
                         <path d="M4 12h16m0 0l-6-6m6 6l-6 6"stroke="currentColor"strokeWidth="1.5"fill="none"strokeLinecap="round"strokeLinejoin="round"/>
                       </svg>
@@ -143,13 +143,13 @@ export default function Home() {
                   </div>
                   <div className="project-info">
                     <div className="project-tittle">
-                      <h1>YANGI TOSHKENT LOT 33A-33B</h1>
+                      <h1>{t("project-title4")}</h1>
                     </div>
                     <div className="project-desc">
-                      <p>Location: Tashkent, Uzbekistan   SCOPE OF WORK Engineering Procurement Construction...</p>
+                      <p>{t("project-desc1")}</p>
                     </div>
                     <Link href={"/projects"} className="more-info"> 
-                      Learn More
+                      {t("learn-more")}
                       <svg className="info-arrow"width="18"height="18"viewBox="4 4 16 16" aria-hidden>
                         <path d="M4 12h16m0 0l-6-6m6 6l-6 6"stroke="currentColor"strokeWidth="1.5"fill="none"strokeLinecap="round"strokeLinejoin="round"/>
                       </svg>
@@ -157,7 +157,7 @@ export default function Home() {
                   </div>
               </div>
             </div>
-            <Link className='home-hover-link' href={'/projects'}>All projects</Link>
+            <Link className='home-hover-link' href={'/projects'}>{t("all-projects")}</Link>
         </section>
         <section className="feedback">
             <div className="feedback-info">
