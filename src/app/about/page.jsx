@@ -43,11 +43,58 @@ export default function AboutPage() {
                     <img src="/about1.png" alt="" />
                   </div>
                   <div className="aboutinformation-card">
-                    <h1>{t("aboutinformation-card2-title")}:</h1> <br /> 
+                    <h1>{t("about-goal")}</h1> <br /> 
                     <div className="aboutinformation-card-desc">
                       <div className="card-desc-info">
-                        <p>{t("aboutinformation-card2")}
+                        <p>{t("about-goal-desc")}
                         </p>
+                      </div>
+                    </div>
+                    <h1>{t("about-value")}</h1>
+                    <div className="aboutinformation-card-desc">
+                      <div className="card-desc-info">
+                        <p> {t("value1")}</p> 
+                        <p> {t("value2")}</p> 
+                        <p> {t("value3")}</p> 
+                        <p> {t("value4")}</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="aboutinformation-card">
+                    <h1>{t("main-directions")}:</h1>
+                    <div className="directions"> 
+                      <div className="direction">
+                        <div className="direction-info">
+                            <p><strong>{t("about-variation-1-title")}</strong></p>
+                            <p></p>
+                        </div>
+                        <div className="direction-image">
+
+                        </div>
+                      </div>
+                      <div className="direction">
+                        <div className="direction-info">
+
+                        </div>
+                        <div className="direction-image">
+
+                        </div>
+                      </div>
+                      <div className="direction">
+                        <div className="direction-info">
+
+                        </div>
+                        <div className="direction-image">
+
+                        </div>
+                      </div>
+                      <div className="direction">
+                        <div className="direction-info">
+
+                        </div>
+                        <div className="direction-image">
+
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -65,11 +112,14 @@ export default function AboutPage() {
                             {t("software")}: PVSOL, PVsyst, DIgSILENT, AutoCAD, WindPRO, PLEXOS, Meteodyn <br />
                             {t("partner")}: <br />
                             {t("kor")}: <br />
-                            <strong>1.</strong> U Energy LLC <br />
+                            <strong>1.</strong> UEnergy <br />
                             <strong>2.</strong> JEA Limited LLC <br />
                             {t("loc")}: <br />
-                            <strong>1.</strong> Baihai Solar <br />
+                            <strong>1.</strong> Green Turan United <br />
                             <strong>2.</strong> Power Sun <br />
+                            <strong>3.</strong> Baihai Solar <br />
+                            <strong>4.</strong> Get Green Energy <br />
+                            <strong>5.</strong> Arif Solar <br />
                           </p>
                         </div>
                     </div>

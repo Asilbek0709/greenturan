@@ -52,7 +52,7 @@
     "service4-desc1": "On-site assessment of cabling, transformers, and electrical panels",
     "service4-desc2": "Thermal imaging diagnostics of solar panels, transmission lines, and wind turbine blades using drones",
     "service4-desc3": "Preparation of a detailed report including detected issues and recommendations",
-    "aboutinformation-card1": "1. Design & Engineering – full engineering documentation for solar power plants and electrical infrastructure 2. Grid Connection Solutions – secure integration into national and local power 3. Protection & Stability Systems – maintaining grid balance using RAS and WAMS/WACS technologies 4. Integration of Solar and Wind Sources – seamless connection of renewables into power systems 5. Site Assessment – solar and wind resource analysis, feasibility studies 6. Turnkey EPC Projects – complete construction and delivery of PV power plants 7. Technical Consulting – strategic and engineering advisory for public and private clients",
+    "aboutinformation-card1": "We are a professional engineering company specializing in the construction of large-scale solar photovoltaic power plants. We offer comprehensive turnkey solutions for the design, construction, and commissioning of solar photovoltaic projects based on the principles of sustainable development, energy efficiency, and environmentally friendly technologies.",
     "aboutinformation-card2-title": "Our Advantages",
     "aboutinformation-card2": "1. Direct involvement in projects with a total installed capacity exceeding 500 MW 2. Successfully completed tracker system installation at the 250 MW Nur Bukhara Solar Power Plant located in Olot District, Bukhara region 3. Eective collaboration with leading international and regional companies, including U Energy (South Korea), Baihai Solar, and Power Sun 4. Skilled in-house team for PV module installation, tracker assembly, electrical connections, geodetic surveying, and HSE compliance 5. Proven experience in modernizing schools, industrial, and social infrastructurefacilities using solar energy co-friendly materials, and construction techniques that minimize environmental impact.",
     "aboutinformation-card3-title": "Company Information Foundation Year",
@@ -82,6 +82,21 @@
     "project-page-title3": "200 kW solar photovoltaic power plant",
     "project-page-title4": "50 kW solar photovoltaic power plant",
     "project-page-title5": "100 kW solar photovoltaic power plant",
-    "project-page-title6": "120 kW solar photovoltaic power plant"
-    
+    "project-page-title6": "120 kW solar photovoltaic power plant",
+    "about-goal": "Company’s Highest Goal:",
+    "about-goal-desc": "To protect nature, promote unity, use natural resources responsibly, and leave a clean and safe environment for future generations.",
+    "about-value": "Company Values",
+    "value1": "Integrity",
+    "value2": "Quality",
+    "value3": "Responsibility",
+    "value4": "Keeping our word / Delivering on our promises",
+    "about-variation-1-title": "Engineering & Design",
+    "about-variation-1": "Comprehensive engineering documentation for solar power plants and electrical infrastructure in compliance with international standards.",
+    "about-variation-2-title": "Grid Connection Solutions",
+    "about-variation-2": "Safe and stable integration into national and local power grids, including protection and stability systems.",
+    "about-variation-3-title": "Grid Protection and Stability Using RAS, WAMS / WACS Technologies",
+    "about-variation-3": "Integration of solar and wind energy sources.\nSeamless and efficient connection of renewable energy sources to power systems.\nSite assessment and resource analysis.\nIdentification of solar and wind resources and preparation of feasibility studies (FS).\nTurnkey EPC projects.\nComplete EPC cycle for PV power plants — from design to commissioning.",
+    "about-variation-4-title": "Operation & Maintenance (O&M)",
+    "about-variation-4": "Ensuring:\ncontinuous operation of power plants,\nimproved efficiency,\nreduction of production losses.\nTechnical consulting.\nStrategic and engineering advisory services for public and private sector clients.",
+    "main-directions": "Our Main Directions"
 }

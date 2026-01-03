@@ -339,7 +339,7 @@ body {
     align-items: center;
     overflow: hidden;
     position: relative;
-    width: 100%;
+    width: 40rem;
     max-width: 40rem;
     height: 20rem;
 }
@@ -404,12 +404,13 @@ body {
 .projects {
     display: flex;
     flex-direction: column;
-    padding: 7rem;
+    padding: 0rem;
+    margin-left: 1rem;
     justify-content: center;
     align-items: center;
     width: 100%;
     max-width: 1400px;
-    margin: 0 auto;
+    margin-top: 2rem;
 }
 
 .projects-container {
@@ -1071,7 +1072,21 @@ footer .page-link {
     width: 32px;
     height: 32px;
 }
-
+.home-information-card-desc{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #fff;
+    width: 35rem;
+}
+.home-information-card-desc .home-hover-link{
+    margin-top: 1rem;
+}
+.home-card-desc-info{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 1rem;
+}
 /* RESPONSIVE DESIGN */
 
 /* МОБИЛЬНЫЕ УСТРОЙСТВА (до 768px) */
@@ -1081,7 +1096,16 @@ footer .page-link {
         gap: 1rem;
         flex-wrap: nowrap;
     }
-    
+    .home-information-card{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-information-card-desc{
+        max-width: 30rem;
+    }
     .header img {
         height: 40px;
         width: auto;

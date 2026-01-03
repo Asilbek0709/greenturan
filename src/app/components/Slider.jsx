@@ -36,19 +36,34 @@ export default function Slider() {
             loop
             className="heroSwiper"
         >
-           
+            <SwiperSlide>
+                <div className="slide" style={{ backgroundImage: "url('/solar20.jpg')"}}>
+                    <div className="overlay">
+                        <h1>NUR BUXORO 250MW</h1>
+                        <Link className='hover-link' href={'/projects'}>{t("dropdown-link-project")}</Link>             
+                    </div>
+                </div>
+            </SwiperSlide>
                 <SwiperSlide>
                 <div className="slide" style={{ backgroundImage: "url('/solar2.jpg')"}}>
                     <div className="overlay" >
-                        <h1>XORAZM SARIMAY 126MW PROJECT</h1>
+                        <h1>XORAZM SARIMAY 126MW </h1>
                         <Link className='hover-link' href={'/projects'}>{t("dropdown-link-project")}</Link>             
                     </div>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className="slide" style={{ backgroundImage: "url('/solar3.jpg')"}}>
+                <div className="slide" style={{ backgroundImage: "url('/solar18.jpg')"}}>
                     <div className="overlay">
-                        <h1>XORAZM SARIMAY 126MW PROJECT</h1>
+                        <h1>XORAZM SARIMAY 126MW </h1>
+                        <Link className='hover-link' href={'/projects'}>{t("dropdown-link-project")}</Link>             
+                    </div>
+                </div>
+            </SwiperSlide>
+            <SwiperSlide>
+                <div className="slide" style={{ backgroundImage: "url('/sliderphoto.jpg')"}}>
+                    <div className="overlay">
+                        <h1>Sherobod 500MW</h1>
                         <Link className='hover-link' href={'/projects'}>{t("dropdown-link-project")}</Link>             
                     </div>
                 </div>
@@ -56,7 +71,7 @@ export default function Slider() {
             <SwiperSlide>
                 <div className="slide" style={{ backgroundImage: "url('/solar4.jpg')"}}>
                     <div className="overlay">
-                        <h1>YANGI YO'L PLANT</h1>
+                        <h1>YANGI YO'L </h1>
                         <Link className='hover-link' href={'/projects'}>{t("dropdown-link-project")}</Link>             
                     </div>
                 </div>
@@ -64,7 +79,7 @@ export default function Slider() {
             <SwiperSlide>
                 <div className="slide" style={{ backgroundImage: "url('/solar5.jpg')"}}>
                     <div className="overlay">
-                        <h1>BEKABAD MANUFACTURING PLANT</h1>
+                        <h1>BEKABAD MANUFACTURING </h1>
                         <Link className='hover-link' href={'/projects'}>{t("dropdown-link-project")}</Link>             
                     </div>
                 </div>
@@ -72,7 +87,7 @@ export default function Slider() {
             <SwiperSlide>
                 <div className="slide" style={{ backgroundImage: "url('/solar7.jpg')"}}>
                     <div className="overlay">
-                        <h1>CONSTRUCTION OF A 30 KW SOLAR PHOTOVOLTAIC POWER PLANT AT KORLI-TOG STATION</h1>
+                        <h1>CONSTRUCTION OF A 30 KW SOLAR PHOTOVOLTAIC POWER</h1>
                         <Link className='hover-link' href={'/projects'}>{t("dropdown-link-project")}</Link>             
                     </div>
                 </div>
@@ -80,19 +95,11 @@ export default function Slider() {
             <SwiperSlide>
                 <div className="slide" style={{ backgroundImage: "url('/solar8.jpg')"}}>
                     <div className="overlay">
-                        <h1>200 kW solar photovoltaic power plant</h1>
+                        <h1>200 kW solar photovoltaic power </h1>
                         <Link className='hover-link' href={'/projects'}>{t("dropdown-link-project")}</Link>             
                     </div>
                 </div>
             </SwiperSlide>
-            <SwiperSlide>
-                <div className="slide" style={{ backgroundImage: "url('/solar1.jpg')"}}>
-                    <div className="overlay">
-                        <h1>XORAZM SARIMAY 126MW PROJECT</h1>
-                        <Link className='hover-link' href={'/projects'}>{t("dropdown-link-project")}</Link>             
-                    </div>
-                </div>
-            </SwiperSlide> 
             <SwiperSlide>
                 <div className="slide" style={{ backgroundImage: "url('/solar9.jpg')"}}>
                     <div className="overlay">
@@ -101,18 +108,11 @@ export default function Slider() {
                     </div>
                 </div>
             </SwiperSlide>
-            <SwiperSlide>
-                <div className="slide" style={{ backgroundImage: "url('/solar10.jpg')"}}>
-                    <div className="overlay">
-                        <h1>PRESIDENTIAL SCHOOL</h1>
-                        <Link className='hover-link' href={'/projects'}>{t("dropdown-link-project")}</Link>             
-                    </div>
-                </div>
-            </SwiperSlide>
+
             <SwiperSlide>
                 <div className="slide" style={{ backgroundImage: "url('/solar11.jpg')"}}>
                     <div className="overlay">
-                        <h1>SOLAR PHOTOVOLTAIC POWER PLANT</h1>
+                        <h1>SOLAR PHOTOVOLTAIC POWER </h1>
                         <Link className='hover-link' href={'/projects'}>{t("dropdown-link-project")}</Link>             
                     </div>
                 </div>

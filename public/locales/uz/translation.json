@@ -52,7 +52,7 @@
     "service4-desc1": "Kabel, transformator va elektr panelalarini joyida baholash",
     "service4-desc2": "Dronlar yordamida quyosh panellari, uzatish liniyalari va shamol turbinalari qanotlarini issiqxona diagnostikasi",
     "service4-desc3": "Aniqlangan muammolar va tavsiyalarni o‘z ichiga olgan batafsil hisobot tayyorlash",
-    "aboutinformation-card1": "1. Loyiha va muhandislik – quyosh elektr stansiyalari va elektr infratuzilmasi uchun to‘liq muhandislik hujjatlari\n2. Tarmoqga ulanish yechimlari – milliy va mahalliy tarmoqlarga xavfsiz integratsiya\n3. Himoya va barqarorlik tizimlari – RAS va WAMS/WACS texnologiyalari yordamida tarmoq balansini saqlash\n4. Quyosh va shamol manbalarini integratsiya qilish – qayta tiklanuvchi energiya manbalarini tarmoqqa muammosiz ulash\n5. Joyni baholash – quyosh va shamol resurslarini tahlil qilish, texnik-iqtisodiy asoslash\n6. Kalit topshirish EPC loyihalari – PV elektr stansiyalarini to‘liq qurish va topshirish\n7. Texnik maslahatlar – davlat va xususiy mijozlar uchun strategik va muhandislik bo‘yicha maslahatlar",
+    "aboutinformation-card1": "Biz yirik quyosh fotoelektr stansiyalariga qurishga ixtisoslashgan professional muhandislik kompaniyasimiz. Biz barqaror rivojlanish, energiya samaradorligi va ekologik toza texnologiyalar asosida quyosh fotoelektr loyihalarini loyihalash, qurish va ishga tushirish bo‘yicha to‘liq yechimlarni taklif etamiz.",
   
     "aboutinformation-card2-title": "Bizning afzalliklarimiz",
     
@@ -85,6 +85,21 @@
     "project-page-title3": "200 kW quvvatga ega quyosh fotoelektr elektr stansiyasi",
     "project-page-title4": "50 kW quvvatga ega quyosh fotoelektr elektr stansiyasi",
     "project-page-title5": "100 kW quvvatga ega quyosh fotoelektr elektr stansiyasi",
-    "project-page-title6": "120 kW quvvatga ega quyosh fotoelektr elektr stansiyasi"
-
+    "project-page-title6": "120 kW quvvatga ega quyosh fotoelektr elektr stansiyasi",
+    "about-goal": "Kompaniyaning oliy maqsadi:",
+    "about-goal-desc": "Tabiatni asrash, birlikni mustahkamlash, tabiiy resurslardan oqilona foydalanish va kelajak avlod uchun toza hamda xavfsiz muhit qoldirish.",
+    "about-value": "Kompaniya qadriyatlari",
+    "value1": "Halollik",
+    "value2": "Sifat",
+    "value3": "Mas’uliyatlilik",
+    "value4": "Aytganimizga amal qilish",
+    "about-variation-1-title": "Loyihalash va muhandislik (Engineering & Design)",
+    "about-variation-1": "Quyosh elektr stansiyalari va elektr infratuzilmasi uchun xalqaro standartlarga mos to‘liq injiniring hujjatlari.",
+    "about-variation-2-title": "Tarmoqqa ulanish yechimlari (Grid Connection Solutions)",
+    "about-variation-2": "Milliy va mahalliy elektr tarmoqlariga xavfsiz va barqaror integratsiya. Himoya va barqarorlik tizimlari",
+    "about-variation-3-title": "RAS, WAMS / WACS texnologiyalari orqali elektr tarmoqlarida barqarorlik va himoyani ta’minlash.",
+    "about-variation-3": "Quyosh va shamol manbalarini integratsiya qilish \n Qayta tiklanuvchi energiya manbalarini uzluksiz va samarali tarzda energetik tizimlarga ulash. \n Yer uchastkasini baholash va resurs tahlili \n Quyosh va shamol resurslarini aniqlash, texnik-iqtisodiy asos (TIA) tayyorlash. \n “Kalit topshirish” EPC loyihalari \n PV stansiyalarni loyihalashdan tortib ishga tushirishgacha bo‘lgan to‘liq EPC sikl.",
+    "about-variation-4-title": "Operation & Maintenance (O&M)",
+    "about-variation-4": "Stansiyalarning: \n uzluksiz ishlashi \n samaradorligini oshirish \n ishlab chiqarish yo‘qotishlarini kamaytirish \n Texnik konsalting \n Davlat va xususiy sektor uchun strategik va injiniring maslahatlar.",
+    "main-directions": "Asosiy yo‘nalishlarimiz"
 }

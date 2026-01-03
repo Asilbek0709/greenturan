@@ -24,6 +24,24 @@ export default function Home() {
               <Link className='home-hover-link-special' href={'/about'}>{t("home-hover-link-licenses")}</Link>
             </div>
         </section>
+        <div className="home-information-card" style={{display: "flex", gap: "2rem", justifyContent: "center", }}>
+                    <div className="home-information-card-desc">
+                      <h1>{t("about-goal")}</h1> <br /> 
+                      <div className="card-desc-info">
+                        <p>{t("about-goal-desc")}
+                        </p>
+                      </div>
+                    </div>
+                    <div className="home-information-card-desc">
+                    <h1 style={{marginTop: "1rem"}}>{t("about-value")}:</h1>
+                      <div className="home-card-desc-info">
+                        <p className='home-hover-link' >{t("value1")}</p> 
+                        <p className='home-hover-link' >{t("value2")}</p>  
+                        <p className='home-hover-link' >{t("value3")}</p> 
+                        <p className='home-hover-link' >{t("value4")}</p>
+                      </div>
+                    </div>
+                  </div>
           <div className="home-about-variations">
             <Link className='home-service-link' href={'/services'}>
               <div className="service-card">
