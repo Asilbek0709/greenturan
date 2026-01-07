@@ -31,7 +31,7 @@ export default function Footer() {
                     <div className="container4">
                         <h1>{t("dropdown-link-contact")}</h1>
                         <div className="contact-info">
-                            <p><span className="colored">{t("colored-phone")}:</span> +998 (77) 260-26-26</p>
+                            <p><span className="colored">{t("colored-phone")}:</span> +998 (77) 260-26-26; +998 (77)-179-20-20</p>
                             <p><span className="colored">{t("colored-email")}:</span> ienergy24h@gmail.com</p>
                             <p><span className="colored">{t("colored-address")}:</span> {t("address")}</p>
                         </div>
@@ -39,7 +39,7 @@ export default function Footer() {
                 </div>
                 <div className="line"></div>
                 <div className="container5">
-                    <p>© 2023 NEW ECO ENERGY. All rights reserved.</p>
+                    <p>© Silicon Hub. Barcha huquqlar himoyalangan.</p>
                 </div>
             </footer>
   );

@@ -22,12 +22,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
     position: relative;
     background-color: #fff;
     flex-wrap: wrap;
 }
-
 .navigation {
     display: flex;
     gap: 30px;
@@ -404,8 +403,7 @@ body {
 .projects {
     display: flex;
     flex-direction: column;
-    padding: 0rem;
-    margin-left: 1rem;
+    padding: 1.25rem;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -553,8 +551,6 @@ body {
     gap: 1.5rem;
     width: 100%;
     max-width: 1200px;
-    justify-content: center;
-    align-items: center;
 }
 
 .projectCard {
@@ -565,7 +561,10 @@ body {
     margin-top: 1rem;
     border-radius: 4px;
 }
-
+.projectCard img{
+    width: 35rem;
+    height: 22rem;
+}
 /* FEEDBACK SECTION */
 .feedback {
     display: flex;
@@ -577,7 +576,7 @@ body {
 .feedback-info {
     display: flex;
     flex-direction: column;
-    padding: 10rem;
+    padding: 5rem;
     background-color: #6f8697;
     color: #fff;
     gap: 2rem;
@@ -1119,6 +1118,43 @@ footer .page-link {
     grid-template-columns: repeat(2, 2fr);
     gap: 1rem;
 }
+/* PRODUCTS */
+.products{
+    display: flex;
+    flex-direction: column;
+}
+.products-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.products-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    gap: 1rem;
+}
+.product{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    border: 0.5px solid #213981;
+}
+.product-photo img{
+    width: 14rem;
+    height: 14rem;
+}
+.product-type{
+    padding: 0.40rem;
+    background-color: #213981;
+    color: #fff;
+    width: 10rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    border: none;
+    margin-top: 0.25rem;
+}
 /* RESPONSIVE DESIGN */
 
 /* МОБИЛЬНЫЕ УСТРОЙСТВА (до 768px) */
@@ -1139,7 +1175,7 @@ footer .page-link {
         max-width: 30rem;
     }
     .header img {
-        height: 40px;
+        height: 80px;
         width: auto;
     }
     
@@ -1262,7 +1298,10 @@ footer .page-link {
     .projectCard {
         padding: 0.75rem;
     }
-    
+    .products-grid{
+        display: flex;
+        flex-direction: column;
+    }
     .feedback {
         flex-direction: column;
         height: auto;
@@ -1673,6 +1712,10 @@ footer .page-link {
     .adress svg{
         width: 32px;
         height: 32px;
+    }
+    .products-grid{
+        display: flex;
+        flex-direction: column;
     }
 }
 

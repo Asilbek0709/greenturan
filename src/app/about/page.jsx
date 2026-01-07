@@ -113,16 +113,18 @@ export default function AboutPage() {
                             {t("andijan-warehouse")} <br />
                             {t("tashkemt-warehosue")} <br />
                             {t("software")}: PVSOL, PVsyst, DIgSILENT, AutoCAD, WindPRO, PLEXOS, Meteodyn <br />
-                            {t("partner")}: <br />
-                            {t("kor")}: <br />
+                            <strong>{t("partner")}</strong>: <br />
+                            <strong>{t("kor")}</strong>: <br />
                             <strong>1.</strong> UEnergy <br />
                             <strong>2.</strong> JEA Limited LLC <br />
-                            {t("loc")}: <br />
+                            <strong>{t("loc")}</strong>: <br />
                             <strong>1.</strong> Green Turan United <br />
                             <strong>2.</strong> Power Sun <br />
                             <strong>3.</strong> Baihai Solar <br />
                             <strong>4.</strong> Get Green Energy <br />
                             <strong>5.</strong> Arif Solar <br />
+                            <strong>{t("uni")}</strong> <br />
+                            {t("univer")}
                           </p>
                         </div>
                     </div>
@@ -137,6 +139,11 @@ export default function AboutPage() {
                         <img src="/liecense2.jpg" alt="" />
                         <img src="/license4.jpg" alt="" />
                         <img src="/license5.jpg" alt="" />
+                        <img src="/license6.jpg" alt="" />
+                        <img src="/license7.jpg" alt="" />
+                        <img src="/license8.jpg" alt="" />
+                        <img src="/license9.jpg" alt="" />
+                        <img src="/license10.jpg" alt="" />
                       </div>
                     </div>
                   </div>

@@ -43,26 +43,12 @@ export default function ProjectsPage() {
       title: t("project-page-title9"),
       description: t("project-page-title9-desc"),
       status: "successful",
-      image: "/solar19.jpg",
+      image: "/solar2.jpg",
       
       details: {
         power: "126 MW",
         scope: t("project-page-title9-desc"),
         client: "Voltalia",
-      },
-    },
-    {
-      id: 4,
-      title: t("project-page-title1"),
-      description: t("project-page-title1-desc"),
-      status: "planned",
-      image: "/solar11.jpg",
-      details: {
-        power: "300 kW",
-        scope: t("project-desc1"),
-        client: `"PRIME TOWR" LLC`,
-        panels: "Tongwai 620 W, N-type",
-        inverter: "Solax X3-FORTH",
       },
     },
     {
@@ -177,19 +163,6 @@ export default function ProjectsPage() {
         inverter: "Solax X3-FORTH",
       }
     },
-        {
-      id: 13,
-      title: t("project-title2"),
-      description: t("project-page-title2-desc"),
-      status: "successful",
-      image: "/solar2.jpg",
-      details: {
-        power: "126 MW",
-        scope: t("project-desc1"),
-        client: "Xorazm Sarimay",
-      }
-    },
-
   ]
 
   const [filter, setFilter] = useState("all")
