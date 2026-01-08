@@ -194,25 +194,7 @@ export default function ProjectsPage() {
     <div>
       <div className="projects-main">
         <Header />
-        <div className="destination">
-          <Link className="destination-link" href="/">
-            {t("homepage")}
-          </Link>
-
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path
-              d="M6 3L11 8L6 13"
-              stroke="#828282"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-
-          <Link className="destination-link-located" href="/projects">
-            {t("dropdown-link-project")}
-          </Link>
-        </div>
+        
 
         {/* Filters */}
         <div

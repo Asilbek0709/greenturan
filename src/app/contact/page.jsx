@@ -15,26 +15,7 @@ export default function Contact() {
   return (
     <section className="contactpage">
       <Header></Header>
-      <div className="destination" style={{width:"100%",}}>
-          <Link className='destination-link' href={'/'} >Homepage</Link>
-                      <svg 
-            width="16" 
-            height="16" 
-            viewBox="0 0 16 16" 
-            fill="none" 
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-          >
-            <path 
-              d="M6 3L11 8L6 13" 
-              stroke="#828282" 
-              strokeWidth="1.5"
-              strokeLinecap="round" 
-              strokeLinejoin="round"
-            />
-          </svg>
-          <Link className='destination-link-located' href={'/contact'} >{t("dropdown-link-contact")}</Link>
-      </div>
+      
       <h1 style={{textAlign: "center", fontSize: "54px"}}>{t("dropdown-link-contact")}</h1>
       <section className="location">
         <div className="location-info">

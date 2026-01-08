@@ -16,8 +16,13 @@ export default function Home() {
     <section className="homepage">
       <Header></Header>
         {/* <Slider></Slider> */}
-        <section className="video">
-          <video src="/homevideofinal.mp4" autoPlay loop muted playsInline ></video>
+        <section className="video-section">
+          <div className="video-background">
+            <video src="/video-last.mp4" autoPlay loop muted playsInline></video>
+          </div>
+          <div className="video-content">
+            <h1>{t("hero")}</h1>
+          </div>
         </section>
         <section className="about">
           <h1>{t("dropdown-link-about")}</h1>

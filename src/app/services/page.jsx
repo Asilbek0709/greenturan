@@ -14,11 +14,7 @@ export default function Services() {
   return (
     <section className="servicespage">
       <Header></Header>        
-      <div className="destination">
-          <Link className='destination-link' href={'/'} >{t("homepage")}</Link>
-          <img src="/sarrow.png" alt="" />
-          <Link className='destination-link-located' href={'/projects'} >{t("dropdown-link-services")}</Link>
-        </div>
+      
       <div className="servicepage-content">
         <main>
             <h1 style={{fontSize: '54px'}}>{t("dropdown-link-services")}</h1>

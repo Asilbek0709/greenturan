@@ -13,26 +13,7 @@ export default function AboutPage() {
     return(
         <section className="aboutpage">
             <Header></Header>
-              <div className="destination">
-                <Link className='destination-link' href={'/'} >{t("homepage")}</Link>
-                            <svg 
-                  width="16" 
-                  height="16" 
-                  viewBox="0 0 16 16" 
-                  fill="none" 
-                  xmlns="http://www.w3.org/2000/svg"
-                  aria-hidden="true"
-                >
-                  <path 
-                    d="M6 3L11 8L6 13" 
-                    stroke="#828282" 
-                    strokeWidth="1.5"
-                    strokeLinecap="round" 
-                    strokeLinejoin="round"
-                  />
-                </svg>
-                <Link className='destination-link-located' href={'/contact'} >{t("dropdown-link-about")}</Link>
-              </div>
+              
               <main className="aboutmain">
                 <div className="aboutinformation">
                   <div className="aboutinformation-card">
