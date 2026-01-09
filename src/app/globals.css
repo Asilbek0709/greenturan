@@ -2,9 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
 }
-
 body {
     background-color: #f4f4f4;
     display: flex;
@@ -14,6 +12,7 @@ body {
     overflow-x: hidden;
     width: 100%;
     min-height: 100vh;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* HEADER & NAVIGATION */
@@ -183,6 +182,8 @@ body {
     transition: right 0.3s ease;
     z-index: 1000;
     overflow-y: auto;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 550;
 }
 
 .mobile-link {
