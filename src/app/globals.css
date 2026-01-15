@@ -806,13 +806,12 @@ body {
 
 .servicepage-content {
     display: flex;
-    flex-direction: column;
-    padding: 4rem;
+    flex-wrap: wrap;
+    padding: 2rem;
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
 }
-
 .services-card {
     padding: 2rem;
     background-color: #fff;

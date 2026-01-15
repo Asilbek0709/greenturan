@@ -35,10 +35,10 @@ export default function Header() {
             </Link>
 
             <div className="dropdown-menu">
-              <Link className="dropdown-link" href="/about">
+              <Link className="dropdown-link" href="/about#partners">
                 {t("home-hover-link-partners")}
               </Link>
-              <Link className="dropdown-link" href="/about">
+              <Link className="dropdown-link" href="/about#licenses">
                 {t("home-hover-link-licenses")}
               </Link>
             </div>

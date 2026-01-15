@@ -82,7 +82,7 @@ export default function AboutPage() {
                       </div>
                     </div>
                   </div>
-                  <div className="aboutinformation-card">
+                  <div className="aboutinformation-card" id="partners">
                     <h1>{t("aboutinformation-card3-title")}:</h1>
                     <div className="aboutinformation-card-desc">
                         <div className="card-desc-info">
@@ -111,7 +111,7 @@ export default function AboutPage() {
                         </div>
                     </div>
                   </div>
-                  <div className="aboutinformation-card">
+                  <div className="aboutinformation-card" id="licenses">
                     <div className="licenses">
                       <h1>{t("certificate")}</h1> <br />
                       <p>{t("certificares-info")}</p>
