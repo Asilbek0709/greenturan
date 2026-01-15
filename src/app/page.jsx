@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <section className="homepage">
       <Header></Header>
-        {/* <Slider></Slider> */}
+        
         <section className="video-section">
           <div className="video-background">
             <video src="/video-last.mp4" autoPlay loop muted playsInline></video>
@@ -24,14 +24,14 @@ export default function Home() {
             <h1>{t("hero")}</h1>
           </div>
         </section>
-        <section className="about">
+        {/* <section className="about">
           <h1>{t("dropdown-link-about")}</h1>
           <div className="home-about-navigation">
               <Link className='home-hover-link' href={'/about'}>{t("home-hover-link-about")}</Link>
               <Link className='home-hover-link' href={'/about'}>{t("home-hover-link-partners")}</Link>
               <Link className='home-hover-link-special' href={'/about'}>{t("home-hover-link-licenses")}</Link>
             </div>
-        </section>
+        </section> */}
         <div className="home-information-card" style={{display: "flex", gap: "2rem", justifyContent: "center", }}>
                     <div className="home-information-card-desc">
                       <h1>{t("about-goal")}</h1> <br /> 
@@ -49,7 +49,9 @@ export default function Home() {
                         <p className='home-hover-link' >{t("value4")}</p>
                       </div>
                     </div>
-                  </div>
+          </div>
+          <h1 className='home-products'>{t("home-hover-link-products")}</h1>
+          <Slider></Slider>
           <div className="home-about-variations">
             <Link className='home-service-link' href={'/services'}>
               <div className="service-card">
